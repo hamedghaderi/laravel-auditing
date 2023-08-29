@@ -409,7 +409,7 @@ class AuditableTest extends AuditingTestCase
             'old_values'     => [],
             'new_values'     => [
                 'title'        => 'How To Audit Eloquent Models',
-                'content'      => 'First step: install the laravel-auditing package.',
+                'content'      => 'First Step: Install The Laravel-auditing Package.',
                 'reviewed'     => 1,
                 'published_at' => $now->toDateTimeString(),
             ],
@@ -469,7 +469,7 @@ class AuditableTest extends AuditingTestCase
             'old_values'     => [],
             'new_values'     => [
                 'title'        => 'How To Audit Eloquent Models',
-                'content'      => 'First step: install the laravel-auditing package.',
+                'content'      => 'First Step: Install The Laravel-auditing Package.',
                 'reviewed'     => 1,
                 'published_at' => $now->toDateTimeString(),
             ],
@@ -552,7 +552,7 @@ class AuditableTest extends AuditingTestCase
             'old_values'     => [],
             'new_values'     => [
                 'title'   => 'How To Audit Eloquent Models',
-                'content' => 'First step: install the laravel-auditing package.',
+                'content' => 'First Step: Install The Laravel-auditing Package.',
             ],
             'event'                 => 'created',
             'auditable_id'          => null,
@@ -1246,7 +1246,7 @@ class AuditableTest extends AuditingTestCase
                 // Expectation when transitioning with new values
                 [
                     'title'   => 'NULLAM EGESTAS INTERDUM ELEIFEND.',
-                    'content' => 'Morbi consectetur laoreet sem, eu tempus odio tempor id.',
+                    'content' => 'Morbi Consectetur Laoreet Sem, Eu Tempus Odio Tempor Id.',
                 ],
             ],
 
@@ -1272,13 +1272,13 @@ class AuditableTest extends AuditingTestCase
                 // Expectation when transitioning with old values
                 [
                     'title'   => 'VIVAMUS A URNA ET LOREM FAUCIBUS MALESUADA NEC NEC MAGNA.',
-                    'content' => 'Mauris ipsum erat, semper non quam vel, sodales tincidunt ligula.',
+                    'content' => 'Mauris Ipsum Erat, Semper Non Quam Vel, Sodales Tincidunt Ligula.',
                 ],
 
                 // Expectation when transitioning with new values
                 [
                     'title'   => 'NULLAM EGESTAS INTERDUM ELEIFEND.',
-                    'content' => 'Morbi consectetur laoreet sem, eu tempus odio tempor id.',
+                    'content' => 'Morbi Consectetur Laoreet Sem, Eu Tempus Odio Tempor Id.',
                 ],
             ],
 
@@ -1301,7 +1301,7 @@ class AuditableTest extends AuditingTestCase
                 // Expectation when transitioning with old values
                 [
                     'title'   => 'VIVAMUS A URNA ET LOREM FAUCIBUS MALESUADA NEC NEC MAGNA.',
-                    'content' => 'Mauris ipsum erat, semper non quam vel, sodales tincidunt ligula.',
+                    'content' => 'Mauris Ipsum Erat, Semper Non Quam Vel, Sodales Tincidunt Ligula.',
                 ],
 
                 // Expectation when transitioning with new values

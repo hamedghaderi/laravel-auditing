@@ -72,8 +72,8 @@ class Article extends Model implements Auditable
     public function content(): Attribute
     {
         return new Attribute(
-            get: fn ($value) => $value,
-            set: fn ($value) => ucwords($value),
+            function ($value) { return $value; },
+            function ($value) { return ucwords($value); }
         );
     }
 }
